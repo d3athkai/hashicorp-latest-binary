@@ -1,6 +1,6 @@
-![GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-BE0000?style=plastic)  
-![Rocky Linux](https://img.shields.io/badge/RockyLinux-07BA82?style=plastic) ![Ubuntu+](https://img.shields.io/badge/Ubuntu-DD4814?style=plastic) ![Raspberry Pi OS](https://img.shields.io/badge/Raspberry--Pi--OS-C51A4A?style=plastic)  
-![Packer](https://img.shields.io/badge/Packer-02A8EF?style=plastic) ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=plastic) ![Vault](https://img.shields.io/badge/Vault-FFD814?style=plastic)  
+[![GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-BE0000?style=plastic)](#)  
+[![Rocky Linux](https://img.shields.io/badge/RockyLinux-07BA82?style=plastic)](#) [![Ubuntu+](https://img.shields.io/badge/Ubuntu-DD4814?style=plastic)](#) [![Raspberry Pi OS](https://img.shields.io/badge/Raspberry--Pi--OS-C51A4A?style=plastic)](#)  
+[![Packer](https://img.shields.io/badge/Packer-02A8EF?style=plastic)](#) [![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=plastic)](#) [![Vault](https://img.shields.io/badge/Vault-FFD814?style=plastic)](#)  
 
 # HashiCorp Latest Binary Download Script
   
