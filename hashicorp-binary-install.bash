@@ -58,4 +58,5 @@ then
 	rm -f /tmp/${BINARY}.zip
 else
 	echo "[ERROR] Download failed!"
+	exit 100
 fi
