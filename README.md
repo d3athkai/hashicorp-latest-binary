@@ -1,0 +1,1 @@
+# hashicorp-latest-binary-download-script
