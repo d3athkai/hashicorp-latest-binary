@@ -5,15 +5,23 @@
 # HashiCorp Latest Binary Download Script
   
 ## Purpose  
-This script is used to download and install the latest Packer, Terraform or Vault binary for amd64 or arm64 Linux from [HashiCorp releases](https://releases.hashicorp.com/).  
+This script is used to get the latest Packer, Terraform or Vault binary/version for amd64 or arm64 Linux from [HashiCorp releases](https://releases.hashicorp.com/).  
   
 ## Requirements  
 * **jq** installed
 * **unzip** installed
   
-## Usage  
+## hashicorp-binary-install.bash Usage  
 `chmod 755 hashicorp-binary-install.bash`  
 `./hashicorp-binary-install.bash <terraform | packer | vault> <amd64 | arm64>`  
   
 Example of installing Terraform for amd64:  
 `./hashicorp-binary-install.bash terraform amd64`  
+
+## hashicorp-binary-version.bash Usage  
+`chmod 755 hashicorp-version-version.bash`  
+`./hashicorp-binary-version.bash <terraform | packer | vault> <amd64 | arm64>`  
+  
+Example of retrieving Terraform version for amd64:  
+`./hashicorp-binary-version.bash terraform amd64`  
+ \> `1.3.8`
