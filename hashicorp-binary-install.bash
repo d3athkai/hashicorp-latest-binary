@@ -14,7 +14,7 @@
 ###################
 BINARY=$1
 ARCH=$2
-DIR_TO_INSTALL=/usr/local/bin/
+DIR_TO_INSTALL=/usr/sbin
 
 
 ##############
@@ -52,9 +52,9 @@ curl -so /tmp/${BINARY}.zip ${BINARY_URL}
 
 if [ $? -eq 0 ]
 then
-	unzip -qo -d /usr/local/bin /tmp/${BINARY}.zip
-	chmod 755 /usr/local/bin/${BINARY}
-	/usr/local/bin/${BINARY} --version
+	unzip -qo -d {{ DIR_TO_INSTALL }} /tmp/${BINARY}.zip
+	chmod 755 {{ DIR_TO_INSTALL }}/${BINARY}
+	{{ DIR_TO_INSTALL }}/${BINARY} --version
 	rm -f /tmp/${BINARY}.zip
 else
 	echo "[ERROR] Download failed!"
